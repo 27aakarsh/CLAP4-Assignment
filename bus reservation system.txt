@@ -3,23 +3,17 @@
 #include<stdlib.h>
 #include<string.h>
 
-
 typedef struct{
 	char name[50];
 	int bus_num;
 	int num_of_seats;
 }pd;
 
-
-
-
-
 void reservation(void);
 void viewdetails(void);
 void printticket(char name[],int,int,float);
 void specificbus(int);
 float charge(int,int);
-
 
 
 int main()
